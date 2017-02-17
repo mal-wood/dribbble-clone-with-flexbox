@@ -27,3 +27,9 @@
   padding: 10px;
   border-radius: 100px;
 }
+
+@media (max-width: 500px) {
+  .bar {
+    flex-direction: column;
+  }
+}
