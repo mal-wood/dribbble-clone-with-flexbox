@@ -1,4 +1,4 @@
-.bar {
+.first-bar {
   display: flex;
   align-items: center;
   background-color: #000;
@@ -8,8 +8,17 @@
 .second-bar {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: pink;
   padding: 40px;
+}
+
+.third-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  padding: 30px;
 }
 
 .nav-item {
@@ -29,7 +38,7 @@
 }
 
 @media (max-width: 500px) {
-  .bar {
+  .first-bar {
     flex-direction: column;
   }
 }
