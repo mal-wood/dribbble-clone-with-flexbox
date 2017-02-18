@@ -1,28 +1,87 @@
 <!DOCTYPE html> 
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="main.scss">
   </head>
   <body>
-    <div class="first-bar">
-        <div><a href="#" class="nav-item" title="Home">Logo</a></div>
-        <div><a href="#" class="nav-item" title="Home">Shots</a></div>
-        <div><a href="#" class="nav-item" title="Home">Designers</a></div>
-        <div><a href="#" class="nav-item" title="Home">Team</a></div>
-        <div><a href="#" class="nav-item" title="Home">Community</a></div>
-        <div><a href="#" class="nav-item" title="Home">Jobs </a></div>
-         <div><a href="#" class="nav-item" title="Home">...</a></div>
-    </div>
-    <div class="second-bar">
-      <div class="nav-item">What are you working on? Dribbble is show and tell for designers.</div>
-      <div class="nav-item"><button class="learn-more">Learn more</button></div>
-      <div class="nav-item"><button class="sign-up">Sign up</button></div>
-    </div>
-     <div class="third-bar">
-      <div class="nav-item">Popular</div>
-      <div class="nav-item">Shots</div>
-      <div class="nav-item">Now</div>
-    </div>
+    <nav>
+      <ul class="nav-bar">
+        <li>Logo</li>
+        <li>Shots
+         <ul class="drop-menu menu-1">
+            <li>Popular</li>
+            <li>Recent</li>
+            <li>Debuts </li>
+            <li>Teams </li>
+            <li>Playoffs</li>
+          </ul>
+        </li>
+        <li>Designers
+          <ul class="drop-menu menu-2">
+            <li>All</li>
+            <li>For Hire</li>
+            <li>Community</li>
+          </ul>
+        </li>
+        <li>Team
+          <ul class="drop-menu menu-1">
+            <li>All</li>
+            <li>Hiring Designers</li>
+            <li>Design Teams for Hire </li>
+            <li>Add Your Design Team</li>
+          </ul>
+        </li>
+        <li>Community
+          <ul class="drop-menu menu-1">
+            <li>Places</li>
+            <li>Meetups</li>
+            <li>Stories </li>
+            <li>Podcast</li>
+            <li>Testimonials</li>
+            <li>Guidelines</li>
+          </ul>
+        </li>
+        <li>Jobs 
+          <ul class="drop-menu menu-1">
+            <li>All</li>
+            <li>Remote/Anywhere</li>
+            <li>Teams Hiring </li>
+          </ul>
+        </li>
+        <li>...</li>
+      </ul>
+      <ul class="nav-bar">
+        <li>What are you working on? Dribbble is show and tell for designers.</li>
+        <li><button class="learn-more">Learn more</button></li>
+        <li><button class="sign-up">Sign up</button></li>
+      </ul>
+      <ul class="nav-bar">
+        <li> Popular
+          <ul class="drop-menu">
+            <li>Recent</li>
+            <li>Most Viewed</li>
+            <li>Most Commented</li>
+          </ul>
+        </li>
+        <li>Shots
+          <ul class="drop-menu">
+            <li>Debuts</li>
+            <li>Team Shots</li>
+            <li>Playoffs</li>
+            <li>Rebounds</li>
+            <li>Animated GIFs</li>
+            <li>Shots with attachments</li>
+          </ul>
+        </li>
+        <li>Now
+          <ul class="drop-menu">
+            <li>This past week</li>
+            <li>This past month</li>
+            <li>This past year</li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
   </body>
   <footer></footer>
 </html>

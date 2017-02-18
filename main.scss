@@ -1,0 +1,44 @@
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: pink;
+  padding: 20px;
+}
+
+.nav-item {
+  margin: 40px;
+}
+
+.learn-more {
+  background-color: cornsilk;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.sign-up {
+  background-color: honeydew;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+ul.drop-menu li {
+  color: #FFF;
+  display: none;
+}
+
+li:hover > ul.drop-menu li {
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+}
