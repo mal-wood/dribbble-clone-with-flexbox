@@ -4,20 +4,6 @@
   background-color: #000;
   padding: 20px; }
 
-.second-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: pink;
-  padding: 40px; }
-
-.third-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: lightblue;
-  padding: 30px; }
-
 .nav-item {
   margin: 10px; }
 
